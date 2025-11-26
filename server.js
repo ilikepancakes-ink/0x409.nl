@@ -3,7 +3,7 @@ const path = require('path');
 const fs = require('fs');
 const app = express();
 app.set('trust proxy', true); // trust proxy for IP forwarding
-const PORT = process.env.PORT || 6741;
+const PORT = process.env.PORT || 6742;
 
 // Load blocked IPs
 let blockedIPs = new Set();

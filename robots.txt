@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://ilikepancakes.ink/sitemap.xml
+Sitemap: https://0x49.nl/sitemap.xml
 
 # Crawl delay for politeness
 Crawl-delay: 1
