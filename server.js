@@ -103,7 +103,7 @@ app.use((req, res) => {
 
 // Iniciar servidor
 app.listen(PORT, () => {
-    console.log(`Welcome to ilikepancakes.ink running on port ${PORT}! >_<`);
+    console.log(`Welcome to 0x409.nl running on port ${PORT}! >_<`);
     console.log('to make my life a little easier i made it so it just auto maps and serves all files in the working directory');
     console.log(`remember A squared + B squared = C squared `);
 });
