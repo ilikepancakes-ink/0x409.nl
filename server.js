@@ -30,6 +30,12 @@ app.use((req, res, next) => {
   next();
 });
 
+// Special route for Discord verification
+app.get('/.well-known/discord', (req, res) => {
+  res.set('Content-Type', 'text/plain');
+  res.send('dh=395036b80b099ece4d3a4d86351b015551466e3d');
+});
+
 // Specific route for /block to show blocked IP
 app.get('/block', (req, res) => {
   const ip = req.ip;
